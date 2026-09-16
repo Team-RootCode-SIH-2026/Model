@@ -1,0 +1,11 @@
+gradio==5.49.1
+transformers==4.56.1
+accelerate==1.14.0
+IndicTransToolkit==1.1.1
+huggingface_hub>=0.35.0
+surya-ocr==0.16.7
+torch==2.8.0
+torchaudio==2.8.0
+Pillow==10.4.0
+sentencepiece==0.2.1
+onnxruntime
