@@ -109,12 +109,6 @@ The fine-tuned model is:
 
 `AtharvaYeole06/indictrans2-dogri-full`
 
-## Apple Silicon
-
-The app checks for CUDA first, then Apple MPS, then CPU.
-
-The translation model will use MPS on supported Apple Silicon Macs. Speech recognition is kept on CPU because this project uses the IndicConformer setup from the original prototype.
-
 The first run downloads several model files, so it can take some time and use several GB of storage.
 
 ## Run
