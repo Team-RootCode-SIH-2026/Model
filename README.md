@@ -11,6 +11,27 @@
 
 ## Before you start
 
+### FFmpeg
+
+FFmpeg is required for audio input, as it handels the backend.
+
+FFmpeg 6 is required for audio input.
+
+**macOS:**
+
+```bash
+brew install ffmpeg@6
+brew unlink ffmpeg
+brew link --force ffmpeg@6
+```
+
+**Windows:** Install FFmpeg and add it to PATH.
+
+**Linux:**
+
+```bash
+sudo apt install ffmpeg
+```
 Use **Python 3.13** for this project. Use Python 3.13. 
 
 This project requires large files to be downloaded caustion before download
